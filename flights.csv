@@ -1,0 +1,19 @@
+flight_id,airline,from_city,from_country,to_city,to_country,dep_date,duration_min,price_eur,note
+FL-2957,Orbit Airways,Lviv,Ukraine,Berlin,Germany,2026-07-12,249,83.99,
+FL-5433,Lumen Air,Berlin,Germany,Milan,Italy,2026-03-11,202,,
+FL-7729,Blue Meridian,Warsaw,Poland,Krakow,Poland,15.07.2026,219,,
+ fl-4894 ,Zephyr Lines ,ROME,Italy,Kyiv,Ukraine,2026-04-07,134,52.99,
+FL-1382,Blue Meridian,Lyon,France,Warsaw,Poland,2026-07-16,79,70.99,
+FL-5407,AeroVista,Berlin,Germany,Kyiv,Ukraine,07.03.2026,116,,delay=25;by=FlightLog
+FL-5656,Lumen Air,Lisbon,Portugal,Oslo,Norway,2026-08-03,311,240.00,
+ fl-5079 ,SkyNord ,PARIS,France,Warsaw,Poland,2026-05-03,197,85.99,
+FL-8045,SkyNord,Kyiv,Ukraine,Tallinn,Estonia,19.03.2026,248,86.00,
+FL-4911,Falcon Jet,Rome,Italy,Lviv,Ukraine,2026-03-15,302,179.50,
+FL-8325,Blue Meridian,Berlin,Germany,Warsaw,Poland,2026-08-21,308,60.00,delay=10;by=FlightLog
+FL-7708,Orbit Airways,Rome,Italy,Berlin,Germany,19.05.2026,263,116.99,
+FL-3594,SkyNord,Oslo,Norway,Lyon,France,2026-03-28,125,,
+FL-9654,TransCarpa,Milan,Italy,Odesa,Ukraine,15.03.2026,201,143.00,
+FL-6348,Lumen Air,Oslo,Norway,Prague,Czechia,2026-05-06,281,239.99,
+FL-4894,Zephyr Lines,Rome,Italy,Kyiv,Ukraine,2026-04-07,134,52.99,
+FL-5079,SkyNord,Paris,France,Warsaw,Poland,2026-05-03,197,85.99,
+FL-6852,SkyNord,Munich,Germany,Madrid,Spain,2026-03-03,119,205.99,delay=90;by=AirWatch

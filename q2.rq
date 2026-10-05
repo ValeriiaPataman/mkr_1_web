@@ -1,0 +1,19 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?region ?regionLabel (COUNT(DISTINCT ?item) AS ?cnt)
+WHERE {
+    ?item wdt:P31 wd:Q8502 ;
+          wdt:P17 wd:Q40 ;
+          wdt:P131 ?region .
+
+    SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en" .
+    }
+}
+GROUP BY ?region ?regionLabel
+HAVING(COUNT(DISTINCT ?item) >= 3)
+ORDER BY DESC(?cnt) ?region
+LIMIT 10
